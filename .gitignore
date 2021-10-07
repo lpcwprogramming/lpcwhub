@@ -1,3 +1,19 @@
 /_site
 
 _config.yml
+
+.jekyll-cache/Jekyll/Cache
+
+.DS_Store
+
+Gemfile
+
+Gemfile.lock
+
+LICENSE.txt
+
+jekyll-agency.gemspec
+
+index.md
+
+favicon.ico
