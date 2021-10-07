@@ -20,9 +20,7 @@ en: &DEFAULT_EN
     - title: "Contact"
       section: contact
     - title: "CV"
-      section: cv
-    # - title: "Theme Source"
-    #   url: https://github.com/raviriley/agency-jekyll-theme/
+      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:

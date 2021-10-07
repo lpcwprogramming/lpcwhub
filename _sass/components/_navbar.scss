@@ -6,7 +6,7 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     border: 0;
     background-color: $primary;
     @include heading-font;
@@ -25,20 +25,20 @@
     .nav-item {
       .nav-link {
         font-size: 90%;
-        font-weight: 400;
+        font-weight: 600;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: white;
+        color: black;
         @include heading-font;
         &.active,
         &:hover {
-          color: $primary;
+          color: #dfff00;
         }
       }
     }
   }
 }
-@media(min-width:992px) {
+@media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -63,10 +63,11 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: $gray-900;
+      background-color: #40e0d0;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
+        color: #dfff00;
       }
     }
   }
