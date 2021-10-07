@@ -3,15 +3,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About Us" }}</h2>
-          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | default: "" }}</h3>
+	        <div class="media">
+          <img class="col-md-4" src="assets/img/profile.png" alt="">
+            <div class="media-body">
+            <h1>Leishla P. Cardona-Wilkins, <br> MPHE, CHES</h1>
+    I was born and raised in Puerto Rico. I have a B.A. in Comparative Literature from the University of Puerto Rico and a Master's in Public Health Education
+    from the University of Puerto Rico's Medical Science Campus. I've been working in research for 5 years now - mostly focusing on teens, LGBTQ issues, and health.
+    I love learning and I'm passionate about sharing that knowledge, as you'll see in my current projects and portfolio. 
+      </div>
+</div>
         </div>
       </div>
-	  <div class="row">
-		<div class="col-lg-8 mx-auto text-center">
-		  <div class="large text-muted">{{ site.data.sitetext[site.locale].about.text | markdownify }}</div>
-		</div>
-	  </div>
     </div>
   </section>
 <!-- End About -->

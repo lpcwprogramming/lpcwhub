@@ -21,10 +21,10 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: projects
     list:
-      - title: "[8BitSexEd](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "[8BitSexEd](https://lpcwprogramming.github.io/8bitsexed/)"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "[Destination: Reading](https://en.wikipedia.org/wiki/Markdown)"
+      - title: "[Destination: Reading](https://lpcwprogramming.github.io/destination-reading/)"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
@@ -37,36 +37,38 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
-    title: "About"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Full CV"
+  # about:
+  #   #title: "Leishla P. Cardona-Wilkins, MPHE, CHES"
+  #   # text: "About me test"
+  #   image: assets/img/profile.jpg
+  #   section: about
+
+  # left is the default
+  #start_align: "left"
+  # events:
+  #   - title: "Our Humble Beginnings"
+  #     year: "2009-2011"
+  #     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #     image: assets/img/timeline/1.jpg
+  #     alt:
+  #   - title: "An Agency is Born"
+  #     year: "March 2011"
+  #     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+  #     image: assets/img/timeline/2.jpg
+  #     alt:
+  #   - title: "Jekyll Theme is created"
+  #     year: "2019"
+  #     desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+  #     image: assets/img/timeline/3.jpg
+  #     alt: image alt text
+  #   - title: "Title"
+  #     year: "2009-2011"
+  #     desc: "Your description here, **Markdown** is fully supported."
+  #     image: assets/img/timeline/4.jpg
+  #     alt:
+  #     # you can enforce the alignment
+  #     align: right
+  # end: "View CV"
 
   cv:
     title: "CV"

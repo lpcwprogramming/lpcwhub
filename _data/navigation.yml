@@ -16,11 +16,11 @@ en: &DEFAULT_EN
     - title: "Portfolio"
       section: portfolio
     - title: "About"
-      section: timeline
+      section: about
     - title: "Contact"
       section: contact
     - title: "CV"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+      url: https://lpcwprogramming.github.io/cv/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
